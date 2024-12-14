@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; 
+  font-family: "Mulish", sans-serif;
+}
+
+header {
+  text-align: center;
+  background-image: url('../images/banner.png');
+  background-position: 5% 50%;
+  background-color: #0d212a;
+  background-size: 85%;
+  background-repeat: no-repeat;
+}
+
+header .logo img{
+  width: 15%;
+  margin: 4% 0 2% 0;
+  object-fit: cover;
+}
+
+header h1 {
+  color: #38a4d3;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  font-weight: 800;
+}
+
+header p {
+  color: white;
+  width: 50%;
+  margin-left: 25%;
+  padding: 2%;
+}
+
+header button {
+  background-color: transparent;
+  color: #2e92bc;
+  border: 1px solid #2e92bc;
+  font-size: 0.9rem;
+  word-spacing: .1rem;
+  padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+  margin-bottom: 3%;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 1px;
+} 
+
+/* ------------------------------------ */
+
+main {
+  text-align: center;
+  border-top: .1rem solid rgb(70, 69, 69);
+  border-bottom: .1rem solid rgb(70, 69, 69);
+}
+
+main #course-content {
+  padding: 9% 0 10% 0;
+  background-color: #000000;
+  color: white;
+}
+
+main #course-content h2{
+  color: #38a4d3;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  font-weight: 800;
+  margin-bottom: 1%;
+  font-family: "Robot", sans-serif;
+  font-weight: 700;
+  word-spacing: 0.3rem;
+}
+
+main #course-content p{ 
+  width: 60%;
+  margin: 2% auto;
+  font-size: 1.1rem;
+}
+
+main #course-content .modules-list .module{
+  border: .1px solid #38a4d3;
+  border-radius: 1.5rem;
+  width: 37%;
+  height: 3rem;
+  margin: 2% auto;
+  padding: 0.7rem 1rem;
+  background-color: rgb(24, 23, 23);
+  overflow: hidden;
+  text-align: auto;
+}
+
+main #course-content .modules-list .module span{
+  color: #38a4d3;
+}
+
+/* ----------------------------- */
+/* 
+#transform-world {
+  background-image: url('../images/plano-de-fundo-de-programacao-co.jpg');
+  background-position: 70% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: brightness(1.2) contrast(1.5) saturate(1.3);
+  height: 500px;
+} */
+
+#transform-world {
+  position: relative;
+  height: 100vh; /* Altura total da tela */
+  overflow: hidden; /* Garante que o vídeo não ultrapasse os limites da div */
+}
+
+#bg-video {
+  position: fixed; /* Faz o vídeo ficar fixo na tela */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-bottom: -80%;
+  object-fit: cover; /* Faz o vídeo cobrir toda a área da tela */
+  z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Garante que o conteúdo fique acima do vídeo */
+  color: white; /* Ajuste a cor do texto conforme necessário */
+  padding: 20px;
+  text-align: left;
+  margin-top: 20%;
+  margin-left: 10%;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 300px;
+
+  background-color: rgba(221, 176, 176, 0.01); /* Fundo branco translúcido */
+  backdrop-filter: blur(10px); /* Aplica desfoque ao fundo */
+  -webkit-backdrop-filter: blur(10px); /* Compatibilidade com WebKit */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
+  border-radius: 20px;
+}
+
+  /* ALIGN TRABALHA EIXO Y */
+  /* JUSTIFY TRABALHA EIXO X */
+
+/* ----------------------------- */
+
+#professional-challenges {
+  background-color: #000000;
+  border-top: .1rem solid rgb(70, 69, 69);
+  border-bottom: .1rem solid rgb(70, 69, 69);
+}
+
+#professional-challenges h2{
+  color: #38a4d3;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  font-weight: 300;
+  margin-bottom: 1%;
+  font-family: "Robot", sans-serif;
+  font-weight: 700;
+  word-spacing: 0.3rem;
+
+  padding-top: 5%;
+  padding-bottom: 3%;
+  width: 350px;
+  margin: auto;
+}
+
+#professional-challenges img{
+  width: 70%;
+  object-fit: cover;
+}
+
+#professional-challenges p{
+ color: white;
+ margin: 2% auto 2%;
+ width: 50%;
+ font-size: 1.2rem;
+ padding-bottom: 3%;
+}
+
+/* ------------------------------- */
+
+footer {
+  height: 100px;
+  text-align: center;
+  padding-top: 2%;
+  color: white;
+  font-size: 1rem;
+}
+
+footer a {
+  color: #38a4d3;
+  text-decoration: none;
+}
