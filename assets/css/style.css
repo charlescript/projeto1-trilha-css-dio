@@ -196,7 +196,7 @@ main #course-content .modules-list .module span{
 footer {
   height: 100px;
   text-align: center;
-  padding-top: 2%;
+  padding-top: 3%;
   color: white;
   font-size: 1rem;
 }
@@ -204,4 +204,5 @@ footer {
 footer a {
   color: #38a4d3;
   text-decoration: none;
+  padding-bottom: 5%;
 }
