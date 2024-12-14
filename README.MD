@@ -11,7 +11,7 @@ Destaques do projeto incluem uma seção com vídeo em background e o uso de efe
 
 ## Demonstração do Projeto  
 Clique no link abaixo para visualizar o projeto online:  
-[**Trilha de CSS - DIO**](https://github.com/charlescript/projeto1-trilha-css-dio)  
+[**Trilha de CSS - DIO Clique aqui e veja como ficou:**](https://charlescript.github.io/projeto1-trilha-css-dio/)  
 
 ---
 
